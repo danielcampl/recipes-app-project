@@ -1,0 +1,16 @@
+.icon-button {
+  border: 1px solid rgba(102, 102, 102, 0.5);
+  padding: 15px;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: rgba(178, 240, 237, 0.582);
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  padding: 10px;
+}

@@ -1,0 +1,12 @@
+.recipes {
+  background-color: rgba(104, 142, 151, 0.226);
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  padding: 30px;
+}
+
+h1 {
+  padding-top: 10px;
+  -webkit-text-stroke: 1px rgb(216, 216, 216);
+}
