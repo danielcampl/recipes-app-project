@@ -9,21 +9,24 @@ function DrinkCards(props) {
 
   const { page } = props;
   return (
-    <div>
+    <div className="food-recipes">
       { allDrinks && allDrinks.drinks
         .filter((non, index) => index < cardsMaxNumber).map((drink, index) => (
           <Link to={ `/${page}/${drink.idDrink}` } key={ index }>
             <div
               data-testid={ `${index}-recipe-card` }
+              className="food-pic"
             >
               <img
                 src={ drink.strDrinkThumb }
                 alt={ drink.strDrink }
                 data-testid={ `${index}-card-img` }
                 style={ { width: '200px', height: '200px' } }
+                className="food-img"
               />
               <p
                 data-testid={ `${index}-card-name` }
+                className="food-name"
               >
                 { drink.strDrink }
               </p>
