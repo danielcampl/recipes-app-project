@@ -1,0 +1,20 @@
+/* HEADER */
+.food-page {
+  background-color: rgba(243, 198, 140, 0.589);
+  text-align: center;
+}
+
+h1 {
+  font-family: "Bebas Neue", cursive;
+  color: rgb(241, 177, 177);
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.493);
+}
+
+.header {
+  padding-bottom: 30px;
+}
+
+.header-btn {
+  display: flex;
+  justify-content: center;
+}
