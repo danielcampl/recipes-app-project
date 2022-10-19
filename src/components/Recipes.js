@@ -6,7 +6,6 @@ import { fetchMealsAPI, fetchDrinksAPI } from "../services/RecipesApi";
 import FoodCards from "./FoodCards";
 import DrinkCards from "./DrinkCards";
 // import Drinks from './Drinks';
-import "../css/Recipes.css";
 
 function AllRecipes({ title }) {
   const { setAllFoods, setAllDrinks } = ContextRecipes();

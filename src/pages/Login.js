@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useHistory } from "react-router-dom";
 
-import "../css/Login.css";
-
 function Login() {
   const [validate, setValidate] = useState(true);
   const [email, setEmail] = useState("");

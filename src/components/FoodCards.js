@@ -3,8 +3,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ContextRecipes } from '../context/ProviderApp';
 
-import '../css/FoodCards.css';
-
 function FoodCards(props) {
   const cardsMaxNumber = 12;
   const { allFoods } = ContextRecipes();
