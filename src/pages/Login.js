@@ -33,7 +33,7 @@ function Login() {
     <div className="login-page">
       <img src={Logo} alt="logo" id="logo" />
       <form className="login-form">
-        <div className="login-container">
+        <div>
           <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Label className="title-form">Email</Form.Label>
             <Form.Control
