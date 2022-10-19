@@ -1,6 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { useHistory } from "react-router-dom";
 
+import Button from "react-bootstrap/Button";
+import Form from "react-bootstrap/Form";
+import Logo from '../images/logo.jpg';
+import "../css/Login.css";
+
 function Login() {
   const [validate, setValidate] = useState(true);
   const [email, setEmail] = useState("");
@@ -26,11 +31,12 @@ function Login() {
 
   return (
     <div className="login-page">
+      <img src={Logo} alt="logo" id="logo" />
       <form className="login-form">
         <div className="login-container">
-          <div className="row100">
-            <span>Email</span>
-            <input
+          <Form.Group className="mb-3" controlId="formBasicEmail">
+            <Form.Label>Email</Form.Label>
+            <Form.Control
               value={email}
               id="email"
               name="email"
@@ -40,29 +46,35 @@ function Login() {
               required
               placeholder="Digite seu email"
             />
-            <span>Password</span>
-            <input
+            <Form.Text className="text-muted text">
+              We'll never share your email with anyone else.
+            </Form.Text>
+          </Form.Group>
+          <Form.Group className="mb-3" controlId="formBasicPassword">
+            <Form.Label>Password</Form.Label>
+            <Form.Control
+              type="password"
+              placeholder="Password"
               id="password"
               value={password}
               name="password"
               data-testid="password-input"
-              type="password"
               onChange={({ target }) => setPassword(target.value)}
               required
-              placeholder="Digite sua senha"
             />
-            <div className="button-container">
-              <button
-                id="button"
+            <div className="button">
+              <Button
+                variant="primary"
                 type="submit"
+                id="button"
                 data-testid="login-submit-btn"
                 disabled={validate}
                 onClick={saveUser}
               >
-                Entrar
-              </button>
+                Enter
+              </Button>
             </div>
-          </div>
+          </Form.Group>
         </div>
       </form>
     </div>
