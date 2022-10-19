@@ -35,7 +35,7 @@ function Login() {
       <form className="login-form">
         <div className="login-container">
           <Form.Group className="mb-3" controlId="formBasicEmail">
-            <Form.Label>Email</Form.Label>
+            <Form.Label className="title-form">Email</Form.Label>
             <Form.Control
               value={email}
               id="email"
@@ -51,7 +51,7 @@ function Login() {
             </Form.Text>
           </Form.Group>
           <Form.Group className="mb-3" controlId="formBasicPassword">
-            <Form.Label>Password</Form.Label>
+            <Form.Label className="title-form">Password</Form.Label>
             <Form.Control
               type="password"
               placeholder="Password"
