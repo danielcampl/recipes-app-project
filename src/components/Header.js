@@ -28,7 +28,7 @@ function Header(props) {
           src={profileIcon}
           alt="profileIcon"
           data-testid="profile-top-btn"
-          className="footer-img"
+          className="tops-img"
         />
       </button>
       {enableSearch && (
@@ -37,7 +37,7 @@ function Header(props) {
             src={searchIcon}
             alt="searchIcon"
             data-testid="search-top-btn"
-            className="footer-img"
+            className="tops-img"
           />
         </button>
       )}

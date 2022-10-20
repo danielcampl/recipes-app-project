@@ -15,13 +15,13 @@ function DrinkCards(props) {
           <Link to={ `/${page}/${drink.idDrink}` } key={ index }>
             <div
               data-testid={ `${index}-recipe-card` }
-              className="food-pic"
+              className="recipes-photo"
             >
               <img
                 src={ drink.strDrinkThumb }
                 alt={ drink.strDrink }
                 data-testid={ `${index}-card-img` }
-                style={ { width: '200px', height: '200px' } }
+                style={ { width: '180px', height: '180px' } }
                 className="food-img"
               />
               <p
