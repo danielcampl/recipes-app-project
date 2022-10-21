@@ -1,5 +1,66 @@
+/* HEADER */
 .food-page {
-  background-color: rgba(72, 92, 97, 0.274);
-  height: 98vh;
-  padding: 10px 50px;
+  background-color: rgba(243, 198, 140, 0.589);
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 700;
+  color: rgb(218, 104, 104);
+  -webkit-text-stroke: 5px rgba(238, 163, 25, 0.308);
+}
+
+.header {
+  padding-bottom: 30px;
+}
+
+.header-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.tops-img {
+  width: 30px;
+  height: 30px;
+}
+
+.icon-button {
+  border: 1px solid rgba(99, 78, 78, 0.747);
+  background-color: rgba(221, 170, 28, 0.541);
+  padding: 8px 14px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgba(100, 16, 16, 0.815);
+  margin: 1px;
+  border-radius: 20px;
+}
+
+.food-recipes {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 160vh;
+}
+
+.recipes {
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.food-img {
+  border: 2px solid #fff;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.food-name {
+  text-decoration: none;
+  padding-top: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 600;
+  color: rgb(201, 49, 49);
+  -webkit-text-stroke: 2px rgba(238, 163, 25, 0.308);
 }

@@ -10,7 +10,9 @@ function Foods() {
   return (
     <div className="food-page">
       <Header title="Foods" enableSearch />
+      <hr />
       <CategoriasRecipes foodRecipes="meals" />
+      <hr />
       <AllRecipes title="foods" />
       <Footer />
     </div>
