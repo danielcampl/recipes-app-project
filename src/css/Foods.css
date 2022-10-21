@@ -32,6 +32,7 @@ h1 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: rgba(100, 16, 16, 0.815);
   margin: 1px;
+  border-radius: 20px;
 }
 
 .food-recipes {
