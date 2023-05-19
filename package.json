@@ -8,6 +8,7 @@
   "dependencies": {
     "bootstrap": "^4.6.2",
     "clipboard-copy": "^4.0.1",
+    "create-react-app": "^5.0.1",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-app": "^1.1.2",
@@ -26,9 +27,6 @@
     "eject": "react-scripts eject",
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js,.jsx",
     "lint:styles": "npx stylelint '**/*.css'"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   },
   "browserslist": {
     "production": [

@@ -23,24 +23,24 @@ function Header(props) {
     <div className="header">
       <h1 data-testid="page-title">{title}</h1>
       <div className="header-btn">
-      <button type="button" onClick={userRedirectPage} className="footer-btn">
-        <img
-          src={profileIcon}
-          alt="profileIcon"
-          data-testid="profile-top-btn"
-          className="tops-img"
-        />
-      </button>
-      {enableSearch && (
-        <button type="button" onClick={handleEnableBar} className="footer-btn">
+        <button type="button" onClick={userRedirectPage} className="footer-btn">
           <img
-            src={searchIcon}
-            alt="searchIcon"
-            data-testid="search-top-btn"
+            src={profileIcon}
+            alt="profileIcon"
+            data-testid="profile-top-btn"
             className="tops-img"
           />
         </button>
-      )}
+        {enableSearch && (
+          <button type="button" onClick={handleEnableBar} className="footer-btn">
+            <img
+              src={searchIcon}
+              alt="searchIcon"
+              data-testid="search-top-btn"
+              className="tops-img"
+            />
+          </button>
+        )}
       </div>
       {searchBar && <SearchBar />}
     </div>

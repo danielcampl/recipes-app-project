@@ -6,6 +6,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
 }
 
 .login-form {
@@ -13,6 +14,8 @@
   border-radius: 10px;
   padding: 30px;
   background: url(../images/background.jpg);
+  width: 500px;
+  height: 320px;
 }
 
 .text {
@@ -39,4 +42,18 @@
 
 #logo {
   padding-bottom: 40px;
+  width: 500px;
+  height: 420px;
+}
+
+@media only screen and (max-width: 780px) {
+  .login-page {
+    width: 450px;
+    height: 883px;
+  }
+
+  .login-form {
+    width: 400px;
+    height: 300px;
+  }
 }

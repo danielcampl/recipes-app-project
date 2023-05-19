@@ -3,6 +3,7 @@
   background: #0fa36b;
   color: #464646;
   display: flex;
+  gap: 20px;
   flex-direction: column;
   font-family: sans-serif;
   height: 100vh;
