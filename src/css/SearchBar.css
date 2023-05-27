@@ -1,24 +1,9 @@
-.form-search {
+.search{
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 50px;
+  gap: 10px;
 }
 
-.pad {
-  width: 10%;
-  height: 50px;
-}
-
-.inp {
-  border: 1px solid rgba(0, 0, 0, 0.349);
-  border-radius: 5px;
-  height: 35px;
-}
-
-.select {
-  display: flex;
-  gap: 5px;
-  width: 100px;
+.inp{
+  padding-left: 65px;
+  border: none;
 }

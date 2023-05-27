@@ -3,6 +3,7 @@ import { useHistory } from "react-router-dom";
 import ContextApp from "../context/ContextApp";
 
 import "../css/SearchBar.css";
+import Button from "react-bootstrap/Button";
 
 function SearchBar() {
   const history = useHistory();
@@ -130,14 +131,14 @@ function SearchBar() {
             First Letter
           </label>
         </div>
-        <button
+        <Button
           data-testid="exec-search-btn"
           type="submit"
           onClick={handleSubmitButton}
           className="icon-button pad"
         >
           Search
-        </button>
+        </Button>
       </form>
     </div>
   );

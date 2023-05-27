@@ -5,6 +5,8 @@ import fetchCategories,
 { fetchCategoriesFilter, fetchMealsAPI, fetchDrinksAPI } from '../services/RecipesApi';
 /* import AllRecipes from './Recipes'; */
 
+import '../css/Categories.css';
+
 // No requisito 22 não foi possivel acessar o estado dentro da função handleButtonCategory,
 // então criei uma let toggle para simular o estado
 let toggle = 'testando';
@@ -72,7 +74,7 @@ function CategoriasRecipes({ foodRecipes }) {
   }, []);
 
   return (
-    <div>
+    <div className="categories-container">
       {categories}
       <button
         type="button"

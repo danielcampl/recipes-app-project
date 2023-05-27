@@ -3,7 +3,7 @@ import { useHistory } from "react-router-dom";
 
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
-import Logo from '../images/logo.jpg';
+import Logo from '../images/logo.png';
 import "../css/Login.css";
 
 function Login() {

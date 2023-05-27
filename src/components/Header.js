@@ -5,6 +5,7 @@ import { useHistory } from "react-router-dom";
 import profileIcon from "../images/profileIcon.svg";
 import searchIcon from "../images/searchIcon.svg";
 import SearchBar from "./SearchBar";
+import '../css/Header.css';
 
 function Header(props) {
   const [searchBar, setSearchBar] = useState(false);
@@ -21,7 +22,7 @@ function Header(props) {
   const { enableSearch, title } = props;
   return (
     <div className="header">
-      <h1 data-testid="page-title">{title}</h1>
+      <h1 data-testid="page-title" className="page-title">{title}</h1>
       <div className="header-btn">
         <button type="button" onClick={userRedirectPage} className="footer-btn">
           <img
@@ -42,7 +43,9 @@ function Header(props) {
           </button>
         )}
       </div>
-      {searchBar && <SearchBar />}
+      <div className="container-header">
+        {searchBar && <SearchBar />}
+      </div>
     </div>
   );
 }

@@ -1,0 +1,22 @@
+.header{
+  padding: 20px;
+  background-color: #495057;
+}
+
+.header-btn{
+  display: flex;
+}
+
+.page-title{
+  color: #FFF;
+}
+
+.container-header{
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  color: #FFF;
+}
